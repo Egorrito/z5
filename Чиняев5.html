@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Чиняев_483</title>
+	<link rel="stylesheet" href="style.css" href="style1.css">
+</head>
+<body>
+	<p class="big"><span class="j">J</span>o<span class="y">y</span> of <span class="tex">T<span class="e">E</span><span class="x">X</span></span></p>
+	<div class="box">
+		<h3>Creating chat</h3>
+		<p class="grey">To create a chart, we need to instantiate the <span class="chart">Chart</span> class. To do this, we need<br>
+		to pass in the 2d context of where we want to draw the chart. Here's an<br>
+		example.
+		</p>
+		<p class="code"><span class="blue">&lt;canvas</span> <span class="green">id=</span><span class="red">"myChart"</span> <span class="green">width=</span><span class="red">"400"</span> <span class="green">height=</span><span class="red">"400"</span><span class="blue">&gt;&lt;/canvas&gt;</span>
+		</p>
+		<p class="code">
+			<span class="curs">// Get the context of the canvas element we want to select</span><br>
+			<span class="bold">var</span> ctx = <span class="blue">document</span>.getElementByld(<span class="red">"myChart"</span>).getContext(<span class="red">"2d"</span>);<br>
+			<span class="bold">var</span> myNewChart - <span class="bold">new</span> Chart(ctx).PolarArea(data);
+		</p>
+		<p class="grey">
+			We can also get the context of our canvas with JQuery. To do this, we need to<br> 
+			get the DOM node out of the jQuery collection, and call the <span class="chart">getContext("2d")</span><br> 
+			method on that.
+		</p>
+		<p class="code1">
+			<span class="curs">// Get the context with jQuery - using jQuery's .get() method.</span><br>
+			<span class="bold">var</span> ctx = &#36;(<span class="red">"#myChart"</span>).get(<span class="blue">0</span>).GetContext(<span class="red">"2d"</span>);<br>
+			<span class="curs">// This will get the firt returned node in the jQuery collection</span><br>
+			<span class="bold">var</span> myNewChart = <span class="bold">new</span> Chart(ctx);
+		</p>
+		<p class="grey">
+			After we've instantiated the Chart class on the canvas we want to draw on, Chart.js will handle the scaling for retina displays.
+		</p>
+		</div>
+		<div>
+			<center>
+				<p class="p!"><h2> 
+					BLACK<span class="white">WHITE</span>
+				<h2></p>
+			</center>
+		</div>
+		
+		<div class="body4">
+		<div class="buttons4">
+			<div class="button4"><a href="#">Отправить</a></div>
+			<div class="button4"><a href="#">Отправить</a></div>
+			<div class="button4"><a href="#">Отправить</a></div>
+		</div>
+		</div> 
+		
+		<div class="f1">
+		<div class="f2">
+			<h3>Написать нам</h3>
+			<form>
+				<input type="text" name="name" class="pole" placeholder="Username">
+				<input type="text" name="mail" class="pole" placeholder="Email">
+				<input type="text" name="comment" class="pole2" placeholder="Сообщение...">
+				<input type="submit" name="knopka" class="button5">
+			</form>
+		</div>
+	</div>
+	<div class="b6">
+	<table class="table61">
+		<tr class="blue6 white6">
+			<th class="padding">Company</th>
+			<th class="align">Q1</th>
+			<th class="align">Q2</th>
+			<th class="align">Q3</th>
+			<th class="align">Q4</th>
+		</tr>
+		<tr class="lightblue6">
+			<td class="blue6 white6 padding6">Microsoft</td>
+			<td class="text6">20.3</td>
+			<td class="text6">30.5</td>
+			<td class="text6">23.5</td>
+			<td class="text6">40.3</td>
+		</tr>
+		<tr class="lightblue6">
+			<td class="blue6 white6 padding6">Google</td>
+			<td class="text6">50.2</td>
+			<td class="text6">40.63</td>
+			<td class="text6">45.23</td>
+			<td class="text6">39.3</td>
+		</tr>
+		<tr class="lightblue6">
+			<td class="blue6 white6 padding6">Apple</td>
+			<td class="text6">25.4</td>
+			<td class="text6">30.2</td>
+			<td class="text6">33.3</td>
+			<td class="text6">36.7</td>
+		</tr>
+		<tr class="lightblue6">
+			<td class="blue6 white6 padding6">IBM</td>
+			<td class="text6">20.4</td>
+			<td class="text6">15.6</td>
+			<td class="text6">22.3</td>
+			<td class="text6">29.3</td>
+		</tr>
+		</table>
+		
+		<table class="table62">
+		<tr class="darkblue6 yellow6">
+			<th class="padding62">Company</th>
+			<th class="align62">Q1</th>
+			<th class="align62">Q2</th>
+			<th class="align62">Q3</th>
+			<th class="align62">Q4</th>
+		</tr>
+		<tr class="darkblue6 white6">
+			<td class="padding63">Microsoft</td>
+			<td class="text62 border6">20.3</td>
+			<td class="text62 border6">30.5</td>
+			<td class="text62 border6">23.5</td>
+			<td class="text62">40.3</td>
+		</tr>
+		<tr class="darkblue6 white6">
+			<td class="padding63">Google</td>
+			<td class="text62 border6">50.2</td>
+			<td class="text62 border6">40.63</td>
+			<td class="text62 border6">45.23</td>
+			<td class="text26">39.3</td>
+		</tr>
+		<tr class="darkblue6 white6">
+			<td class="white6 padding63">Apple</td>
+			<td class="text62 border6">25.4</td>
+			<td class="text62 border6">30.2</td>
+			<td class="text62 border6">33.3</td>
+			<td class="text62">36.7</td>
+		</tr>
+		<tr class="darkblue6 white6">
+			<td class="white6 padding63">IBM</td>
+			<td class="text62 border6">20.4</td>
+			<td class="text62 border6">15.6</td>
+			<td class="text62 border6">22.3</td>
+			<td class="text62">29.3</td>
+		</tr>
+	</table>
+	<table class="table63">
+		<tr>
+			<th colspan="3" class="head6">Холодные закуски</th>
+		</tr>
+		<tr class="grey6">
+			<th class="head62 bottom6">Наименование</th>
+			<th class="bottom6 width6">Выход, гр.</th>
+			<th class="bottom6 width6">Цена, руб.</th>
+		</tr>
+		<tr class="grey6 color1">
+			<td class="left6">Ассорти из овощей, зелени и сыра</td>
+			<td class="text6">250</td>
+			<td class="text6">190</td>
+		</tr>
+		<tr class="grey6 color2">
+			<td class="left6">Ассорти мясное</td>
+			<td class="text6">250</td>
+			<td class="text6">300</td>
+		</tr>
+		<tr class="grey6 color1">
+			<td class="left6">Ассорти рыбное (семга с/c, форель c/c)</td>
+			<td class="text6">250</td>
+			<td class="text6">350</td>
+		</tr>
+		<tr class="grey6 color2">
+			<td class="left6">Ассорти грибное</td>
+			<td class="text6">120</td>
+			<td class="text6">150</td>
+		</tr>
+		<tr class="grey6 color1">
+			<td class="left6">Соления из бочки (помидоры, огурцы,<br> перец, чеснок, капуста)</td>
+			<td class="text6">250</td>
+			<td class="text6">180</td>
+		</tr>
+	</table>
+	</div>
+	<div b7>
+<div class="form71">
+	<div class="list7">
+		<div class="ellipse7">
+			<p class="number7 p7">1</p>
+		</div>
+		<div class="line7">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse7">
+			<p class="number7 p7">2</p>
+		</div>
+		<div class="line7">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse7">
+			<p class="number7" p7>3</p>
+		</div>
+		<div class="line7">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse7">
+			<p class="number7 p7">4</p>
+		</div>
+		<div class="line7">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse7">
+			<p class="number7 p7">5</p>
+		</div>
+		<div class="line7">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+</div>
+<div class="form72">
+	<div class="list7">
+		<div class="ellipse72">
+			<p class="number7 p7">1</p>
+		</div>
+		<div class="line72">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse72">
+			<p class="number7 p7">2</p>
+		</div>
+		<div class="line72">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse72">
+			<p class="number7 p7">3</p>
+		</div>
+		<div class="line72">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse72">
+			<p class="number7 p7">4</p>
+		</div>
+		<div class="line72">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>
+	<div class="list7">
+		<div class="ellipse72">
+			<p class="number7 p7">5</p>
+		</div>
+		<div class="line72">
+			<p class="text7 p7">Элемент списка</p>
+		</div>
+	</div>	
+</div>
+</div>
+
+<div b7>
+	<div class="blue7">
+		<div class="pink7">
+				<div class="green7 p7">
+					<p>Block</p>
+				</div>
+		</div>
+	</div>
+</div b7>
+
+<div b9>
+	<div class="blocks9">
+		<div class="pink9 p9">
+			<p>Item 1</p>
+		</div>
+		<div class="pink9 p9">
+			<p>Item 2</p>
+		</div>
+		<div class="pink9 p9">
+			<p>Item 3</p>
+		</div>
+	</div>
+</div >
+
+<div b10>
+	<nav>
+		<div class="menu">
+			<ul>
+				<a href="#"><li>home</li></a>
+				<a href="#"><li>css/xhtml</li></a>
+				<a href="#"><li>flash/xml</li></a>
+				<a href="#"><li>premium</li></a>
+				<a href="#"><li>webhosting</li></a>
+				<a href="#"><li>contact</li></a>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<div class="container b11">
+		<img src="images/creslo.png" class="creslo">
+		<div class="info">
+			<a href="#" class="name11">Автокресло Caretero<br> Sport Classic (Black)</a>
+			<p class="code11">код 69.324</p>
+			<p class="text11">Неделя б/у. Мелкие<br> потертости и пятна. Полная<br> гарантия.</p>
+			<p class="price">1 010 000 руб.</p>
+			<a href="#" class="button_link11">
+				<div class="button11">
+					<p class="button_text11">В корзину</p>
+				</div>
+			</a>
+		</div>
+		
+	</div>
+	
+	<div class="container12 b12">
+		<div class="headline12">
+			<h1>Блог: техническое</h1>
+		</div>
+		<div class="other12 p">
+				<img src="images/icons/calendar.png" class="icon">
+				<p>Опубликовано: <b>22/12.2011</b></p>
+				<img src="images/icons/blog.png" class="icon">
+				<p>Категория: <b>Блог</b></p>
+				<img src="images/icons/comment.png" class="icon right">
+				<p class="right12"><b>Оставить комментарий</b></p>
+		</div>
+		<div class="words12 p">
+			<p>blog</p>
+			<p>lytdybr</p>
+			<p>thoughts</p>
+		</div>
+		<div class="info12 p">
+			<img src="images/robot.png" class="robot">
+			<div class="text12 p">
+				<p>Друзья, нужна помощь!</p>
+				<p>Бес попутал и я пару месяцев назад решил &laquo;оптимизировать&raquo; файл<br>
+				robot.txt на сайте. Дооптимизировался!
+				</p>
+				<p><a href="#">Читать дальше</a></p>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
